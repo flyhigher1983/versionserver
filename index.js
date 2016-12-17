@@ -29,7 +29,7 @@ var body = [
 var version = 1.2;
 http.createServer(function (request, response) {
     //response.writeHead(200, { 'Content-Length': body.length,'Content-Type': 'text/html' });
-    response.end('hi,this is '+version);
+    response.end('hi,this is new '+version);
 }).listen(80)
 
 console.log('Node app is running at localhost:' + 80 + '/');
